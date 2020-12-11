@@ -35,25 +35,23 @@ exports.run = function(client, message, args) {
     .setColor("#ff0000")
     .setDescription(
       `
-    <:tr:780484679227932704> » **Maalesef, <@!${botisim}> adlı botun reddedildi.** 
-    <:en:780485586535448616> » **Unfortunately, your bot <@!${botisim}> has declined.** 
+    🤖 **Maalesef, <@!${botisim}> adlı botun reddedildi.** 
     ₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋
-    <:tr:780484679227932704> » Sebep : ** ${sebep} **
-    <:en:780485586535448616> » Reason : ** ${sebep} **
+    👎 Sebep : ** ${sebep} **
 
-    <:tr:780484679227932704> » Yetkili | <:en:780485586535448616> Admin ** ${message.author} **
+    👮‍♂️ Yetkili |${message.author} **
 `);
 
   let embed = new Discord.MessageEmbed()
     .setColor("#ff0000")
     .setDescription(
       `  
-      <:tr:780484679227932704> **Bir bot reddedildi** | <:en:780485586535448616>**A bot declined**
+      🤖 **Bir bot reddedildi**
       
-      <:tr:780484679227932704> **» Sahip Bilgisi |** <:en:780485586535448616> **Owner Info  [${message.author}] \`[ ${message.author.id} ]\`**
+      🤠 **» Sahip Bilgisi |[${message.author}] \`[ ${message.author.id} ]\`**
      ₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋
-      **  <:tr:780484679227932704> » Bot Bilgisi | <:en:780485586535448616> Bot's Info [ <@!${botisim}>] \`[ ${botisim} ]\`**
-      **  <:tr:780484679227932704> » Red Sebebi | <:en:780485586535448616> Reason \`[ ${sebep} ]\`**
+      **  😈 Bot Bilgisi |[ <@!${botisim}>] \`[ ${botisim} ]\`**
+      **  👎 Red Sebebi |\`[ ${sebep} ]\`**
 `
     );
 

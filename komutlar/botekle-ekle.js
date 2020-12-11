@@ -31,7 +31,7 @@ let botID = args[0];
     🤷‍♂️ **Sahip Bilgi |${message.author} \`[ ${message.author.id} ]\`**
    ₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋
    **🎓 Bot Bilgi | <@!${botID}> \`[${botID}]\`**
-   **🙌  🏻Bot Öneki | \`[ ${prefix} ]\`**
+   **🙌 Bot Öneki | \`[ ${prefix} ]\`**
     
   **[0 Perm Ekle](https://discordapp.com/oauth2/authorize?client_id=${botID}&scope=bot&permissions=0) | ` + ` [8 Perm Ekle](https://discordapp.com/oauth2/authorize?client_id=${botID}&scope=bot&permissions=8)**`)
     
@@ -40,8 +40,7 @@ let botID = args[0];
      .setColor('#fff76b')
     .setDescription(`
     **Botunuz başarıyla sıraya eklendi,en yakın zamanda test edilecektir** 
-    ₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋
-   **<:tr:780484679227932704> » Sıra | [⤙ ${sıra} ⤚](https://www.youtube.com/channel/UCDf5rQLAZOfi6NV7on2S_AA/featured)**  `)
+    `)
     message.author.send(emba)
     db.set(`sahip_${message.author.id}`, botID)
     db.add(`sıra_${message.guild.id}`,1)
