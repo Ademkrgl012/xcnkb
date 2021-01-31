@@ -18,6 +18,8 @@ let botID = args[0];
       .send(`Bu komutu sadece <#${eklekanal}> kanalında kullanabilirsin.`)
       .then(msg => msg.delete({timeout : '3000'}));
   if (message.channel.id == eklekanal) {
+if(!botID) return message.channel.send(`Lütfen eksik kısımları doldurun.\n**Doğru Kullanım**; \`\`${ayarlar.prefix}botekle <bot-id> <bot-prefix>\`\``).then(a => a.delete(5000))
+if(!prefix) return message.channel.send(`Lütfen eksik kısımları doldurun.\n**Doğru Kullanım**; \`\`${ayarlar.prefix}botekle <bot-id> <bot-prefix>\`\``).then(a => a.delete(5000))
 
 
    
