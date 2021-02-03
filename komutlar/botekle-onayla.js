@@ -13,19 +13,19 @@ exports.run = function(client, message, args) {
   .setDescription(`
    ・ **Hata 02**
    
-   \`Onaylanacak botun sahibini sunucuda bulamıyorum.\`
+   \`Onaylanacak Botun sahibinin idsini gir.\`
 `)
        let hata3 = new Discord.MessageEmbed()
   .setDescription(`
    ・ **Hata 03**
    
-   \`Onaylanacak botu sunucuda bulamıyorum.\`
+   \`Onaylanacak Botun idsini gir\`
 `)
             let hata4 = new Discord.MessageEmbed()
   .setDescription(`
    ・ **Hata 04**
    
-   \`Onaylayacağın botun prefixini belirt.\`
+   \`Onaylayacağın Botun prefixini gir\`
 `)
  
   let yetkili = message.author;
@@ -50,8 +50,8 @@ exports.run = function(client, message, args) {
   let embedd = new Discord.MessageEmbed()
   .setColor('#71ea00')
   .setDescription(`
-    <:tr:780484679227932704> » **Tebrikler, ${botisim} adlı botun başarıyla onaylandı.** 
-    <:en:780485586535448616> » **Congratulations, your bot ${botisim} has been successfully approved.** 
+    :flag_tr:  » **Tebrikler, ${botisim} adlı botun başarıyla onaylandı.** 
+    :england:  » **Congratulations, your bot ${botisim} has been successfully approved.** 
     ₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋
   `)
   .setFooter('» Onaylandığı Zaman ')

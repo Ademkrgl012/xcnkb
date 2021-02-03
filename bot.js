@@ -157,24 +157,24 @@ let sebeb = `${member.user.tag} Adlı Sahip Kullanıcı Sunucudan Ayrıldı İç
 const embed = new Discord.MessageEmbed()
 .setColor("RANDOM")
 .setDescription(`
-**<:tr:780484679227932704> »** ${member} Sunucudan Ayrıldığı İçin Botu Atıldı!
-**<:en:780485586535448616> »** ${member} Left the Server, And Member's Bot Banned.
+**:flag_tr: »** ${member} Sunucudan Ayrıldığı İçin Botu Atıldı!
+** :england: »** ${member} Left the Server, And Member's Bot Banned.
 ₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋
-**<:tr:780484679227932704> » Bot Bilgisi | <:en:780485586535448616> » Bot Information ↓ ↓ ↓**
+**:flag_tr:» Bot Bilgisi |  :england: » Bot Information ↓ ↓ ↓**
 
-**<:tr:780484679227932704> » Sahip | <:en:780485586535448616> Owner ${member} \`[ ${member.id} ]\`**
-**<:tr:780484679227932704> »  Bot  | <:en:780485586535448616> Bot ${bot} \`[ ${bot} ]\`**
+**:flag_tr: » Sahip |  :england: Owner ${member} \`[ ${member.id} ]\`**
+**:flag_tr: »  Bot  |  :england: Bot ${bot} \`[ ${bot} ]\`**
 `)
 const embed2 = new Discord.MessageEmbed()
 .setColor("RANDOM")
 .setDescription(`
-**<:tr:780484679227932704> »** ${member} Sunucudan Ayrıldığın İçin Botun Atıldı!
-**<:en:780485586535448616> »** ${member} Your bot was kicked for leaving the server.
+  :flag_tr: »** ${member} Sunucudan Ayrıldığın İçin Botun Atıldı!
+** :england: »** ${member} Your bot was kicked for leaving the server.
 ₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋
-**<:tr:780484679227932704> » Bot Bilgisi | <:en:780485586535448616> » Bot Information ↓ ↓ ↓**
+**:flag_tr: » Bot Bilgisi | <:en:780485586535448616> » Bot Information ↓ ↓ ↓**
 
-**<:tr:780484679227932704> » Sahip | <:en:780485586535448616> Owner ${member} \`[ ${member.id} ]\`**
-**<:tr:780484679227932704> »  Bot  | <:en:780485586535448616> Bot ${bot} \`[ ${bot} ]\`**
+**:flag_tr: » Sahip |  :england: Owner ${member} \`[ ${member.id} ]\`**
+**:flag_tr: »  Bot  |  :england: Bot ${bot} \`[ ${bot} ]\`**
 `)
 member.send(embed2)
 kanal.send(embed)
