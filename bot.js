@@ -171,7 +171,7 @@ const embed2 = new Discord.MessageEmbed()
   :flag_tr: »** ${member} Sunucudan Ayrıldığın İçin Botun Atıldı!
 ** :england: »** ${member} Your bot was kicked for leaving the server.
 ₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋₋
-**:flag_tr: » Bot Bilgisi | <:en:780485586535448616> » Bot Information ↓ ↓ ↓**
+**:flag_tr: » Bot Bilgisi |  :england: » Bot Information ↓ ↓ ↓**
 
 **:flag_tr: » Sahip |  :england: Owner ${member} \`[ ${member.id} ]\`**
 **:flag_tr: »  Bot  |  :england: Bot ${bot} \`[ ${bot} ]\`**
