@@ -105,7 +105,7 @@ client.login(ayarlar.token);
 
 client.on("ready", () => {
   client.user.setPresence({
-    game: { name: `SPLASHEN V12 BOOSTER BOTLIST`, type: "WATCHING" },
+    game: { name: `LastWord Destek & Uptime Botlist`, type: "WATCHING" },
     status: "online"
   });
 });
