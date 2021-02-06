@@ -1,4 +1,3 @@
 module.exports = member => {
-    let username = member.user.username;
-  
+  let username = member.user.username;
 };
