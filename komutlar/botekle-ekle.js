@@ -10,8 +10,8 @@ let botID = args[0];
   let uye = message.author
   let sıra = db.fetch(`sıra_${message.guild.id}`)
   let emb = new Discord.MessageEmbed()
-  .setDescription(`<:tr:780484679227932704> Sadece 1 bot ekleyebilirsin.
-<:en:780485586535448616> You can add only one bot.`)
+  .setDescription(`Sadece 1 bot ekleyebilirsin.
+You can add only one bot.`)
 //if(db.has(`botsayi_${message.author.id}`)) return message.author.send(emb)
   if (message.channel.id !== eklekanal)
     return message.channel
@@ -24,7 +24,7 @@ if(!prefix) return message.channel.send(`Lütfen eksik kısımları doldurun.\n*
 
    
         let embed2 = new Discord.MessageEmbed()
-    .setColor('#fff76b')
+    .setColor('PURPLE')
     .setDescription(`
     ** 🤖 Bir bot başvurusu gönderildi**
 
@@ -39,7 +39,7 @@ if(!prefix) return message.channel.send(`Lütfen eksik kısımları doldurun.\n*
     
     client.channels.cache.get(log).send(embed2)
      let emba = new Discord.MessageEmbed()
-     .setColor('#fff76b')
+     .setColor('PURPLE')
     .setDescription(`
     **Botunuz başarıyla sıraya eklendi,en yakın zamanda test edilecektir** 
     `)

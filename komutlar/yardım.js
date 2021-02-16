@@ -7,7 +7,7 @@ const merziki = new Discord.MessageEmbed()
 .setColor('ORANGE')
 .setTitle('Bot Nasıl Eklenir?')
 .setTimestamp(30000)
-.addField("• Botunuzu Eklemek İçin; \n\n `.botekle <botID> <prefix>`")
+.addField("• Botunuzu Eklemek İçin; \n\n `!botekle <botID> <prefix>`")
 .setFooter('')
 message.channel.send(merziki)
 };
