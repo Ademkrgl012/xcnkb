@@ -18,7 +18,7 @@ You can add only one bot.`)
       .send(`Bu komutu sadece <#${eklekanal}> kanalında kullanabilirsin.`)
       .then(msg => msg.delete({timeout : '3000'}));
   if (message.channel.id == eklekanal) {
-if(!botID) return message.channel.send(`Lütfen eksik kısımları doldurun.\n**Doğru Kullanım**; \`\`${ayarlar.prefix}botekle <bot-id> <bot-prefix>`\`\`).then(a => a.delete(5000))
+if(!botID) return message.channel.send(`Lütfen eksik kısımları doldurun.\n**Doğru Kullanım**; \`\`${ayarlar.prefix}botekle <bot-id> <bot-prefix>\`\``).then(a => a.delete(5000))
 if(!prefix) return message.channel.send(`Lütfen eksik kısımları doldurun.\n**Doğru Kullanım**; \`\`${ayarlar.prefix}botekle <bot-id> <bot-prefix>\`\``).then(a => a.delete(5000))
 
 
@@ -60,7 +60,7 @@ if(!prefix) return message.channel.send(`Lütfen eksik kısımları doldurun.\n*
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ["add", "ekle"],
+  aliases: ["add"],
   permLevel: 0
 };
 
