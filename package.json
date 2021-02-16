@@ -11,13 +11,13 @@
   },
   "dependencies": {
     "chalk": "^4.1.0",
-    "discord.js": "^12.5.0",
-    "express": "^4.16.4",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
     "fs": "^0.0.2",
-    "moment": "^2.27.0",
+    "moment": "^2.29.1",
     "quick.db": "^7.1.2",
     "jimp": "^0.16.1",
-    "node-superfetch": "^0.1.10",
+    "node-superfetch": "^0.1.11",
     "moment-duration-format": "^2.3.2",
     "common-tags": "^1.8.0",
     "canvas": "^2.6.1",
@@ -35,4 +35,4 @@
     "glitch",
     "express"
   ]
-}  
+}
