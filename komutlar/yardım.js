@@ -8,7 +8,8 @@ const merziki = new Discord.MessageEmbed()
 .setTitle('Bot Nasıl Eklenir?')
 .setTimestamp(30000)
 .addField("• Botunuzu Eklemek İçin; \n\n `!botekle <botID> <prefix>`")
-.setFooter('')
+.addField("• Bot Onaylamak İçin; \n\n `!onay <sahipID> <botID> <prefix>`")
+.setFooter('Bots House')
 message.channel.send(merziki)
 };
 
