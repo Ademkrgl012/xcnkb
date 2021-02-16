@@ -60,7 +60,7 @@ if(!prefix) return message.channel.send(`Lütfen eksik kısımları doldurun.\n*
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ["add"],
+  aliases: ["ekle"],
   permLevel: 0
 };
 

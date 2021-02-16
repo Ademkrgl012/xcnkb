@@ -7,7 +7,11 @@ const merziki = new Discord.MessageEmbed()
 .setColor('ORANGE')
 .setTitle('Bot Nasıl Eklenir?')
 .setTimestamp(30000)
-.addField("• Botunuzu Eklemek İçin; \n\n `.botekle <botID> <prefix>`")
+.addField("• Botunuzu Eklemek İçin; \n\n `!botekle <botID> <prefix>`")
+.addField("• Bot Onaylamak İçin; \n\n `!botekle <botID> <prefix>`")
+.addField("• Bot Reddetmek İçin; \n\n `!botekle <botID> <prefix>`")
+
+
 .setFooter('')
 message.channel.send(merziki)
 };
@@ -20,12 +24,12 @@ message.channel.send(merziki)
 exports.conf = {
   enabled: true,
   guildOnly: false, 
-  aliases: ['y','yardim','komutlar'], 
+  aliases: [], 
   permLevel: 0 
 };
 
 exports.help = {
   name: 'yardım',
   description: 'Tüm komutları gösterir.',
-  usage: 'müzik'
+  usage: 'yardım'
 };
