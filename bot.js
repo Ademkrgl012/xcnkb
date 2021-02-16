@@ -105,7 +105,7 @@ client.login(process.env.token);
 
 client.on("ready", () => {
   client.user.setPresence({
-    game: { name: `LastWord Destek & Uptime Botlist`, type: "WATCHING" },
+    game: { name: ``, type: "WATCHING" },
     status: "online"
   });
 });
