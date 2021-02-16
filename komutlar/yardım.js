@@ -9,6 +9,7 @@ const merziki = new Discord.MessageEmbed()
 .setTimestamp(30000)
 .addField("• Botunuzu Eklemek İçin; \n\n `!botekle <botID> <prefix>`")
 .addField("• Bot Onaylamak İçin; \n\n `!onay <sahipID> <botID> <prefix>`")
+.addField("• Botu Reddetmek İçin; \n\n `!reddet <sahipID> <botID> sebep`")
 .setFooter('Bots House')
 message.channel.send(merziki)
 };
@@ -21,12 +22,12 @@ message.channel.send(merziki)
 exports.conf = {
   enabled: true,
   guildOnly: false, 
-  aliases: ['y','yardim','komutlar'], 
+  aliases: [], 
   permLevel: 0 
 };
 
 exports.help = {
   name: 'yardım',
   description: 'Tüm komutları gösterir.',
-  usage: 'müzik'
+  usage: 'yardım'
 };
