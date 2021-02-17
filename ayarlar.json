@@ -1,12 +1,13 @@
 {
-  "prefix": "!",
-  "sahip": "793848230966198282",
-  "log": "810290768651485204",
-  "eklekanal": "810290735936700498",
-  "yetkiliROL": "811231278723760139",
-  "developerROL": "811230873176244294",
-  "botROL": "810287571762413621",
-  "onayLOG": "810290768651485204",
-  "kickLOG": "810290768651485204",
-  "redLOG": "810290768651485204"
+  "prefix": "",
+  "token": "",
+  "sahip": "",
+  "log": "",
+  "eklekanal": "",
+  "yetkiliROL": "",
+  "developerROL": "",
+  "botROL": "",
+  "onayLOG": "",
+  "kickLOG": "",
+  "redLOG": ""
 }

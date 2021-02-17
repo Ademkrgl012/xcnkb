@@ -16,10 +16,6 @@ const merziki = new Discord.MessageEmbed()
 message.channel.send(merziki)
 };
 
- //youtube.com/linlords
-//teşekkürler AloneDesign
-
-//linlordscode.com
 
 exports.conf = {
   enabled: true,
