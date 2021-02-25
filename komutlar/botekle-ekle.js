@@ -10,8 +10,8 @@ let botID = args[0];
   let uye = message.author
   let sıra = db.fetch(`sıra_${message.guild.id}`)
   let emb = new Discord.MessageEmbed()
-  .setDescription(`<:tr:780484679227932704> Sadece 1 bot ekleyebilirsin.
-<:en:780485586535448616> You can add only one bot.`)
+  .setDescription(`Sadece 1 bot ekleyebilirsin.
+You can add only one bot.`)
 //if(db.has(`botsayi_${message.author.id}`)) return message.author.send(emb)
   if (message.channel.id !== eklekanal)
     return message.channel
