@@ -20,7 +20,7 @@ setInterval(() => {
 
 const log = message => {
   console.log(` => { ${message} } `);
-  
+  //SYNX CODE KARDEŞİM
 };
 
 client.commands = new Discord.Collection();
@@ -89,7 +89,7 @@ client.unload = command => {
   });
 };
 
-////////////////////////
+////////////////////////SYNX CODE KARDEŞİM
 
 client.elevation = message => {
   if (!message.guild) {
@@ -183,3 +183,4 @@ if(bot.user.bot) {
 }  
 db.delete(`sahip_${member.user.id}`)
 }})
+//SYNX CODE KARDEŞİM

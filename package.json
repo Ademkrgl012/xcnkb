@@ -1,10 +1,10 @@
 {
-  "//1": "SPLASHENSPLASHENSPLASHENSPLASHENSPLASHENSPLASHEN",
-  "//2": "SPLASHENSPLASHENSPLASHENSPLASHENSPLASHENSPLASHEN",
-  "//3": "SPLASHENSPLASHENSPLASHENSPLASHENSPLASHENSPLASHEN",
+  "//1": "SYNX CODE",
+  "//2": "SYNX CODE",
+  "//3": "SYNX CODE",
   "name": "hello-express",
   "version": "0.0.1",
-  "description": "SPLASHENSPLASHENSPLASHENSPLASHENSPLASHENSPLASHEN",
+  "description": "SYNX CODE SJ",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
